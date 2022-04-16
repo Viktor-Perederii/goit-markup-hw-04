@@ -39,12 +39,20 @@
 				</nav>
 				<ul class="contacts">
 					<li class="contact-item">
-						<a href="mailto:info@devstudio.com" class="link"
-							>info@devstudio.com</a
-						>
+						<a href="mailto:info@devstudio.com" class="link mail">
+							<svg class="mail-svg" width="16" height="12">
+								<use href="./images/icons.svg#icon-envelope"></use>
+							</svg>
+							info@devstudio.com
+						</a>
 					</li>
 					<li class="contact-item">
-						<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+						<a href="tel:+380961111111" class="link phone">
+							<svg class="phone-svg" width="10" height="16">
+								<use href="./images/icons.svg#icon-smartphone"></use>
+							</svg>
+							+38 096 111 11 11</a
+						>
 					</li>
 				</ul>
 			</div>
@@ -66,11 +74,9 @@
 					<ul class="benefits-list">
 						<li class="benefits-item">
 							<div class="benefits-img">
-								<use>
-									<svg class="benefits-svg">
-										<use href:="./images/symbol-defs.svg#icon-antenna"
-									</svg>
-								</use>
+								<svg class="benefits-svg" width="70" height="70">
+									<use href="./images/icons.svg#icon-antenna"></use>
+								</svg>
 							</div>
 							<h3 class="benefits-header">Внимание к деталям</h3>
 							<p class="benefits-text">
@@ -79,7 +85,11 @@
 							</p>
 						</li>
 						<li class="benefits-item">
-							<div class="benefits-img"></div>
+							<div class="benefits-img">
+								<svg class="benefits-svg" width="70" height="70">
+									<use href="./images/icons.svg#icon-clock"></use>
+								</svg>
+							</div>
 							<h3 class="benefits-header">Пунктуальность</h3>
 							<p class="benefits-text">
 								Задача организации, в особенности же рамки и место обучения
@@ -87,7 +97,11 @@
 							</p>
 						</li>
 						<li class="benefits-item">
-							<div class="benefits-img"></div>
+							<div class="benefits-img">
+								<svg class="benefits-svg" width="70" height="70">
+									<use href="./images/icons.svg#icon-diagram"></use>
+								</svg>
+							</div>
 							<h3 class="benefits-header">Планирование</h3>
 							<p class="benefits-text">
 								Равным образом консультация с широким активом в значительной
@@ -95,7 +109,11 @@
 							</p>
 						</li>
 						<li class="benefits-item">
-							<div class="benefits-img"></div>
+							<div class="benefits-img">
+								<svg class="benefits-svg" width="70" height="70">
+									<use href="./images/icons.svg#icon-astronaut"></use>
+								</svg>
+							</div>
 							<h3 class="benefits-header">Современные технологии</h3>
 							<p class="benefits-text">
 								Значимость этих проблем настолько очевидна, что реализация
@@ -318,22 +336,46 @@
 					<h2 class="clients-header">Постоянные клиенты</h2>
 					<ul class="clients-list">
 						<li class="client-item">
-							<div></div>
+							<div>
+								<svg class="client-svg" width="106" height="60">
+									<use href="./images/icons.svg#icon-Logo1"></use>
+								</svg>
+							</div>
 						</li>
 						<li class="client-item">
-							<div></div>
+							<div>
+								<svg class="client-svg" width="106" height="60">
+									<use href="./images/icons.svg#icon-Logo2"></use>
+								</svg>
+							</div>
 						</li>
 						<li class="client-item">
-							<div></div>
+							<div>
+								<svg class="client-svg" width="106" height="60">
+									<use href="./images/icons.svg#icon-Logo3"></use>
+								</svg>
+							</div>
 						</li>
 						<li class="client-item">
-							<div></div>
+							<div>
+								<svg class="client-svg" width="106" height="60">
+									<use href="./images/icons.svg#icon-Logo4"></use>
+								</svg>
+							</div>
 						</li>
 						<li class="client-item">
-							<div></div>
+							<div>
+								<svg class="client-svg" width="106" height="60">
+									<use href="./images/icons.svg#icon-Logo5"></use>
+								</svg>
+							</div>
 						</li>
 						<li class="client-item">
-							<div></div>
+							<div>
+								<svg class="client-svg" width="106" height="60">
+									<use href="./images/icons.svg#icon-Logo6"></use>
+								</svg>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -341,27 +383,62 @@
 		</main>
 		<!--Footer-->
 		<footer class="page-footer">
-			<div class="container">
-				<a href="/" class="logo link">
-					<span class="logo-web"> Web</span>Studio
-				</a>
-				<address class="studio-contacts">
-					<ul class="contacts-details">
-						<li class="adress">
-							<a href="https://goo.gl/maps/y7baGRZ7443zRsPg7" class="link">
-								г. Киев, пр-т Леси Украинки, 26</a
-							>
+			<div class="container footer-box">
+				<div class="footer-part">
+					<a href="/" class="logo link">
+						<span class="logo-web"> Web</span>Studio
+					</a>
+					<address class="studio-contacts">
+						<ul class="contacts-details">
+							<li class="adress">
+								<a href="https://goo.gl/maps/y7baGRZ7443zRsPg7" class="link">
+									г. Киев, пр-т Леси Украинки, 26</a
+								>
+							</li>
+							<li class="footer-contact">
+								<a href="mailto:info@devstudio.com" class="link"
+									>info@devstudio.com</a
+								>
+							</li>
+							<li class="footer-contact">
+								<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+				<div class="footer-social">
+					<p class="footer-social-text">Присоединяйтесь</p>
+					<ul class="footer-socials">
+						<li class="footer-socials-item">
+							<a href="" class="footer-socials-link link">
+								<svg class="footer-socials-svg" width="20" height="20">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
 						</li>
-						<li class="footer-contact">
-							<a href="mailto:info@devstudio.com" class="link"
-								>info@devstudio.com</a
-							>
+						<li class="footer-socials-item">
+							<a href=" " class="footer-socials-link link">
+								<svg class="footer-socials-svg" width="20" height="20">
+									<use href="./images/icons.svg#icon-twitter"></use>
+								</svg>
+							</a>
 						</li>
-						<li class="footer-contact">
-							<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+						<li class="footer-socials-item">
+							<a href="" class="footer-socials-link link">
+								<svg class="footer-socials-svg" width="20" height="20">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-socials-item">
+							<a href=" " class="footer-socials-link link">
+								<svg class="footer-socials-svg" width="20" height="20">
+									<use href="./images/icons.svg#icon-linkedin"></use>
+								</svg>
+							</a>
 						</li>
 					</ul>
-				</address>
+				</div>
 			</div>
 		</footer>
 	</body>
