@@ -260,7 +260,10 @@ ul {
 	background: #f5f4fa;
 	border-radius: 4px;
 	margin-bottom: 30px;
-	padding: 25px 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .benefits-header {
 	text-transform: uppercase;
